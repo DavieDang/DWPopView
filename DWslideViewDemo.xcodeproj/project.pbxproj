@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51566BA02005F76D00CF2DC7 /* DWDirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51566B9D2005F75D00CF2DC7 /* DWDirectionPanGestureRecognizer.m */; };
+		51566BA12005F76D00CF2DC7 /* DWPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51566B9E2005F75D00CF2DC7 /* DWPopView.m */; };
 		519D76A32003464400383E84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519D76A22003464400383E84 /* AppDelegate.m */; };
 		519D76A62003464400383E84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519D76A52003464400383E84 /* ViewController.m */; };
 		519D76A92003464400383E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519D76A72003464400383E84 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51566B9C2005F75D00CF2DC7 /* DWDirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWDirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		51566B9D2005F75D00CF2DC7 /* DWDirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		51566B9E2005F75D00CF2DC7 /* DWPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPopView.m; sourceTree = "<group>"; };
+		51566B9F2005F75D00CF2DC7 /* DWPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPopView.h; sourceTree = "<group>"; };
 		519D769E2003464400383E84 /* DWslideViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWslideViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519D76A12003464400383E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		519D76A22003464400383E84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51566B9B2005F72C00CF2DC7 /* DWPopView */ = {
+			isa = PBXGroup;
+			children = (
+				51566B9C2005F75D00CF2DC7 /* DWDirectionPanGestureRecognizer.h */,
+				51566B9D2005F75D00CF2DC7 /* DWDirectionPanGestureRecognizer.m */,
+				51566B9F2005F75D00CF2DC7 /* DWPopView.h */,
+				51566B9E2005F75D00CF2DC7 /* DWPopView.m */,
+			);
+			path = DWPopView;
+			sourceTree = "<group>";
+		};
 		519D76952003464400383E84 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +122,7 @@
 				519D76A22003464400383E84 /* AppDelegate.m */,
 				519D76A42003464400383E84 /* ViewController.h */,
 				519D76A52003464400383E84 /* ViewController.m */,
+				51566B9B2005F72C00CF2DC7 /* DWPopView */,
 				519D76A72003464400383E84 /* Main.storyboard */,
 				519D76AA2003464400383E84 /* Assets.xcassets */,
 				519D76AC2003464400383E84 /* LaunchScreen.storyboard */,
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51566BA02005F76D00CF2DC7 /* DWDirectionPanGestureRecognizer.m in Sources */,
+				51566BA12005F76D00CF2DC7 /* DWPopView.m in Sources */,
 				519D76A62003464400383E84 /* ViewController.m in Sources */,
 				519D76B12003464400383E84 /* main.m in Sources */,
 				519D76A32003464400383E84 /* AppDelegate.m in Sources */,
